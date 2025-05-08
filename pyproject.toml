@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools >= 80", "pip >= 25.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+env = [
+    "DATABASE_URL = postgresql://lottery_user:lottery_pass@localhost:5432/lottery_db",
+]

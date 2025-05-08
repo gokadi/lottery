@@ -1,0 +1,6 @@
+*
+!setup.*
+!lottery/*
+!dist/
+!pyproject.toml
+!docker/app/files/*
